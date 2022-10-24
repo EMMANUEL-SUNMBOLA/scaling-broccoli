@@ -1,0 +1,4 @@
+* don't validate empty for all inputs at once 
+* life hard !!!!!!!
+*avoiding globals 
+* uses require instead of session

@@ -1,0 +1,113 @@
+
+#home{
+  background: url(images/home-bg.jpg);
+  background-size: cover;
+  height: 100vh;
+  padding-top: 40vh;
+}
+main button:hover{
+  border-radius: 20%;
+  background-color: var(--pink);
+  border: 0;
+}
+main button{
+  border: 1vh solid pink;
+  background-color: rgba(220,190,190,);
+}
+.pbut{
+  border:  1px solid black;
+  width: 25px;
+  height: 15px;
+  border-radius: 5px;
+  text-decoration: none;
+  padding: 10px 10px;
+}
+#products button{
+  border: 1px solid navy;
+  border-radius: 4%;
+  background: cyan;
+}
+#products button:hover{
+  background: transparent;
+}
+#contact img{
+  width: 500px;
+  margin-left: 600px;
+  margin-top: -400px;
+}
+button{
+  border-radius: 5px;
+}
+#btn{
+  width: 100px;
+  background-color: red;
+}
+#btn:hover{
+  background-color: brown;
+}
+legend{
+  width: 500px;
+}
+#foot{
+  background-color: #c5c5c5;
+  color: black;
+  font-style: italic;
+  font-size: larger;
+}
+#login_form{
+padding-top: 100px;
+}
+#login_form_input{
+  width: 299px;
+  text-align: center;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+#log_button{
+  background-color: blue;
+  color: white;
+}
+#log_button:hover{
+  background-color: darkblue;
+}
+#list li{
+  font-family:'Work Sans',sans-serif ;
+  list-style:none;
+  list-style-position: inside;
+  color: white;
+}
+#list li:not(:lastchild){
+  margin-bottom: 10px;
+}
+#list li:before{
+  content: "\272A";
+}
+.four{
+  font-size: 300px;
+}
+.dp{
+  width: 170px ;
+  height:170px;
+  border-radius: 50%;
+  margin-left: 450px;
+  /* border: 5px dashed #c5c5c5; */
+  /* text-align: center; */
+  /* position: absolute; */
+  /* top: 0; */
+  /* left: 0; */
+}
+
+.dp img{
+  /* padding-top: 10px; */
+  width:170px ;
+  height: 170px;
+  border-radius: 50%;
+}
+.col{
+  border: .5px solid #c5c5c5;
+}
+@media screen and (max-width: 560px) {
+  .dp{
+  margin-left: 130px;    
+  }
+}
